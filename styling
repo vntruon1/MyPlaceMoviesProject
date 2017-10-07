@@ -191,3 +191,7 @@ p{
   .right {
     left: 0%;
   }
+
+  .nicko{
+      background:#d7cec7;
+  }
