@@ -80,8 +80,12 @@ li:last-child {
 li a:hover:not(.active) {
     color: #8c1c13;
 }
-
-
+a.ListSpecify{
+	color:#65655e;
+}
+a.ListSpecify:hover:not(.active){
+	color: #65655e;
+}
 
 div{
 	font-family: GrossRegular;
@@ -103,6 +107,7 @@ h1{
 p{
 	color:#65655e;
 }
+
 .content1 {
 
     margin: auto;
