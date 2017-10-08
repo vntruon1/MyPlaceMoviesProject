@@ -2,6 +2,29 @@ html{
     background-color: whitesmoke;
 }
 
+.use_case_db{
+    margin:auto;
+    max-width: 1000px;
+}
+
+.deliv{
+    margin:auto;
+    width:50%;
+    color: #08415c;
+    font-family: GrossRegular;
+    font-size: 20px;
+}
+
+.specs{
+    margin:auto;
+    max-width: 1000px;
+}
+
+#couch{
+    display: block;
+    margin:auto;
+}
+
 #nicko{
     background-color:#d7cec7;
     color:#65655e;
@@ -26,7 +49,7 @@ html{
     font-family: GrossRegular;
     src: url("Gross Regular.otf") format("opentype");
 }
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,7 +57,7 @@ ul {
    /* background-color:#08415c;*/
 }
 
-li {
+.navbar li {
     float: right;
    
 }
@@ -43,7 +66,7 @@ li:last-child {
     border-right: none;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: #08415c;
     text-align: center;
@@ -71,9 +94,12 @@ div{
     padding-top: 20px;
 
 }
+
 h1{
 	color:#8c1c13;
+	font-family: GrossRegular;
 }
+
 p{
 	color:#65655e;
 }
@@ -111,8 +137,6 @@ p{
 * {
     box-sizing: border-box;
 }
-
-
 
 /* Container around content */
 .container {
@@ -211,6 +235,3 @@ p{
   .right {
     left: 0%;
   }
-  
-
-}
