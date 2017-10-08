@@ -24,7 +24,7 @@ html{
 
 @font-face {
     font-family: GrossRegular;
-    src: url("gross/Gross Regular.otf") format("opentype");
+    src: url("Gross Regular.otf") format("opentype");
 }
 ul {
     list-style-type: none;
